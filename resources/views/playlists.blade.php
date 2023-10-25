@@ -8,7 +8,7 @@
     <h1>List of Playlists</h1>
     <ul>
         @foreach ($playlists as $playlist)
-            <li>{{ $playlist->title }}</li>
+            <li><a href="{{ route('playlists.show', ['playlist' => $playlist->id]) }}">{{ $playlist->title }}</a></li>
         @endforeach
     </ul>
 </body>

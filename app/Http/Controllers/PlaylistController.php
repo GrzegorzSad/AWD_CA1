@@ -25,7 +25,7 @@ class PlaylistController extends Controller
 
     public function show(Playlist $playlist)
     {
-        // Logic to display a single playlist
+        return view('playlist.show', ['playlist' =>$playlist]);
     }
 
     public function edit(Playlist $playlist)

@@ -8,7 +8,11 @@
     <h1>List of Albums</h1>
     <ul>
         @foreach ($albums as $album)
-            <li>{{ $album->name }}</li>
+            <li>
+                <a href="{{ route('albums.show', ['album' => $album->id]) }}">
+                    {{ $album->name }}
+                </a>
+            </li>
         @endforeach
     </ul>
 </body>

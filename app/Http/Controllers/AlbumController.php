@@ -25,7 +25,7 @@ class AlbumController extends Controller
 
     public function show(Album $album)
     {
-        // Logic to display a single album
+        return view('album.show', ['album' =>$album]);
     }
 
     public function edit(Album $album)
