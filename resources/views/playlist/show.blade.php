@@ -4,7 +4,7 @@
     <title>Playlist Details</title>
 </head>
 <body>
-    <a href="{{ route('index') }}">Home</a>
+    <a href="{{ route('playlists.index') }}">Home</a>
     <h1>Playlist Details</h1>
 
     <p>Title: {{ $playlist->title }}</p>

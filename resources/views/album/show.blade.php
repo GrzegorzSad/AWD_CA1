@@ -1,4 +1,3 @@
-@extends('layouts.app')
 
 @section('content')
 <a href="{{ route('albums.index') }}">Back to Albums</a>

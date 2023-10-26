@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-@extends('layouts.app')
-
 @section('content')
     <a href="{{ route('songs.index') }}">Back to All Songs</a>
     <h1>Song Details</h1>

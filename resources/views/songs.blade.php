@@ -4,7 +4,7 @@
     <title>List of Songs</title>
 </head>
 <body>
-    <a href="{{ route('index') }}">Home</a>
+    <a href="{{ route('dashboard') }}">Home</a>
     <h1>List of Songs</h1>
     <ul>
         @foreach ($songs as $song)
